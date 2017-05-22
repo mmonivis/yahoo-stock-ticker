@@ -1,14 +1,37 @@
+body{
+    overflow: hidden;
+    background-color: #204513;
+    background-image: url("https://www.transparenttextures.com/patterns/fabric-of-squares.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    font-family: 'courier new', serif;
+}
+
 h1{
     color: blue;
 }
 
-.col-sm-12, input{
-    margin-bottom: 15px;
-
+h2{
+    color: white;
 }
 
-body{
-    overflow: hidden;
+.col-sm-12, input{
+    margin-bottom: 15px;
+}
+
+.content{
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+button{
+    margin-top: 10px;
+}
+
+.input-group{
+    display: inline-block;
+    position: relative;
+    margin: auto;
 }
 
 #pages{
